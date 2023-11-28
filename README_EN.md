@@ -19,18 +19,12 @@ This will install packages like selenium, google-auth, and others required by th
 3. Google Calendar API Setup:
     * Follow [Google's guide](https://developers.google.com/calendar/api/quickstart/python#authorize_credentials_for_a_desktop_application) to enable the Calendar API and obtain credentials.json 
     * Place credentials.json in the project's root directory.
-4. Install the Google client library for Python:
-   ```
-   pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
-   ``` 
 
-5. Environment Variables:
+4. Environment Variables:
     * Create a .env file in the project root directory.
     * Add your Google Calendar ID in the .env file as `calendarId=YOUR_CALENDAR_ID`.
 
-6. Selenium WebDriver:
-    * Ensure Chrome is installed.
-    * Download the appropriate version of ChromeDriver and place it in the project root.
+5. [Download](https://chromedriver.chromium.org/downloads) the appropriate version of Selenium ChromeDriver and place it in the project root.
 
 ## Usage
 To run the script, navigate to the project directory and execute:
