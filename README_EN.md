@@ -1,4 +1,5 @@
 # University Schedule Integration
+## Discription
 This project is designed to automatically fetch and integrate a university schedule into Google Calendar. It uses Python with Selenium for web scraping and the Google Calendar API for calendar management. The script fetches a specific university schedule from a web page and inserts the events into a designated Google Calendar.
 
 ## Installation
